@@ -128,7 +128,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.starter"
+        applicationId "com.ronit.starter"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

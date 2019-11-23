@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* starterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* starterTests.m */; };
+		00E356F31AD99517003FC87E /* reactnativestarterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* reactnativestarterTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		22A6A560BA0051BFFA63DB7F /* libPods-starter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C59CAB58E11256C2417493D /* libPods-starter.a */; };
+		22A6A560BA0051BFFA63DB7F /* libPods-reactnativestarter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C59CAB58E11256C2417493D /* libPods-reactnativestarter.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* starterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* starterTests.m */; };
-		2F713BB70F5576982D1556BA /* libPods-starter-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD66521E1882CCB42F665BA /* libPods-starter-tvOSTests.a */; };
-		9BAE92AFA10232340C0F3A66 /* libPods-starter-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B544E2650AF0D86D6E279CCE /* libPods-starter-tvOS.a */; };
-		DCE5163E6DACC84BEA784101 /* libPods-starterTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7687BA78F68B77C1F531F845 /* libPods-starterTests.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* reactnativestarterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* reactnativestarterTests.m */; };
+		2F713BB70F5576982D1556BA /* libPods-reactnativestarter-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD66521E1882CCB42F665BA /* libPods-reactnativestarter-tvOSTests.a */; };
+		9BAE92AFA10232340C0F3A66 /* libPods-reactnativestarter-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B544E2650AF0D86D6E279CCE /* libPods-reactnativestarter-tvOS.a */; };
+		DCE5163E6DACC84BEA784101 /* libPods-reactnativestarterTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7687BA78F68B77C1F531F845 /* libPods-reactnativestarterTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,45 +28,45 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = starter;
+			remoteInfo = reactnativestarter;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "starter-tvOS";
+			remoteInfo = "reactnativestarter-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* starterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = starterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* reactnativestarterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reactnativestarterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* starterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = starterTests.m; sourceTree = "<group>"; };
-		0928A3F68861ADFDA0366427 /* Pods-starterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-starterTests.debug.xcconfig"; path = "Target Support Files/Pods-starterTests/Pods-starterTests.debug.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* starter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = starter.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = starter/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = starter/AppDelegate.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* reactnativestarterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = reactnativestarterTests.m; sourceTree = "<group>"; };
+		0928A3F68861ADFDA0366427 /* Pods-reactnativestarterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactnativestarterTests.debug.xcconfig"; path = "Target Support Files/Pods-reactnativestarterTests/Pods-reactnativestarterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* reactnativestarter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reactnativestarter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = reactnativestarter/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = reactnativestarter/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = starter/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = starter/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = starter/main.m; sourceTree = "<group>"; };
-		1BD66521E1882CCB42F665BA /* libPods-starter-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-starter-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E47B1E0B4A5D006451C7 /* starter-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "starter-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* starter-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "starter-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E8328312978013D9539EA20 /* Pods-starter-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-starter-tvOS.release.xcconfig"; path = "Target Support Files/Pods-starter-tvOS/Pods-starter-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		6BF5B6A13E1451F17BA204F3 /* Pods-starter-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-starter-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-starter-tvOSTests/Pods-starter-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		7687BA78F68B77C1F531F845 /* libPods-starterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-starterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C59CAB58E11256C2417493D /* libPods-starter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-starter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B544E2650AF0D86D6E279CCE /* libPods-starter-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-starter-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB9C3586DA8E0CBB7BA9BE29 /* Pods-starter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-starter.release.xcconfig"; path = "Target Support Files/Pods-starter/Pods-starter.release.xcconfig"; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = reactnativestarter/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = reactnativestarter/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = reactnativestarter/main.m; sourceTree = "<group>"; };
+		1BD66521E1882CCB42F665BA /* libPods-reactnativestarter-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactnativestarter-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E47B1E0B4A5D006451C7 /* reactnativestarter-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "reactnativestarter-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* reactnativestarter-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "reactnativestarter-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E8328312978013D9539EA20 /* Pods-reactnativestarter-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactnativestarter-tvOS.release.xcconfig"; path = "Target Support Files/Pods-reactnativestarter-tvOS/Pods-reactnativestarter-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		6BF5B6A13E1451F17BA204F3 /* Pods-reactnativestarter-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactnativestarter-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-reactnativestarter-tvOSTests/Pods-reactnativestarter-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		7687BA78F68B77C1F531F845 /* libPods-reactnativestarterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactnativestarterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C59CAB58E11256C2417493D /* libPods-reactnativestarter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactnativestarter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B544E2650AF0D86D6E279CCE /* libPods-reactnativestarter-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactnativestarter-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB9C3586DA8E0CBB7BA9BE29 /* Pods-reactnativestarter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactnativestarter.release.xcconfig"; path = "Target Support Files/Pods-reactnativestarter/Pods-reactnativestarter.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F191344E7A2F0E23B4128114 /* Pods-starter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-starter.debug.xcconfig"; path = "Target Support Files/Pods-starter/Pods-starter.debug.xcconfig"; sourceTree = "<group>"; };
-		F7D7443C32D2A5E105BD7111 /* Pods-starter-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-starter-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-starter-tvOSTests/Pods-starter-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		FBBBAB297501D02621680E9C /* Pods-starterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-starterTests.release.xcconfig"; path = "Target Support Files/Pods-starterTests/Pods-starterTests.release.xcconfig"; sourceTree = "<group>"; };
-		FBED7FE36F825F398501CF27 /* Pods-starter-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-starter-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-starter-tvOS/Pods-starter-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		F191344E7A2F0E23B4128114 /* Pods-reactnativestarter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactnativestarter.debug.xcconfig"; path = "Target Support Files/Pods-reactnativestarter/Pods-reactnativestarter.debug.xcconfig"; sourceTree = "<group>"; };
+		F7D7443C32D2A5E105BD7111 /* Pods-reactnativestarter-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactnativestarter-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-reactnativestarter-tvOSTests/Pods-reactnativestarter-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FBBBAB297501D02621680E9C /* Pods-reactnativestarterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactnativestarterTests.release.xcconfig"; path = "Target Support Files/Pods-reactnativestarterTests/Pods-reactnativestarterTests.release.xcconfig"; sourceTree = "<group>"; };
+		FBED7FE36F825F398501CF27 /* Pods-reactnativestarter-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactnativestarter-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-reactnativestarter-tvOS/Pods-reactnativestarter-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCE5163E6DACC84BEA784101 /* libPods-starterTests.a in Frameworks */,
+				DCE5163E6DACC84BEA784101 /* libPods-reactnativestarterTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22A6A560BA0051BFFA63DB7F /* libPods-starter.a in Frameworks */,
+				22A6A560BA0051BFFA63DB7F /* libPods-reactnativestarter.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BAE92AFA10232340C0F3A66 /* libPods-starter-tvOS.a in Frameworks */,
+				9BAE92AFA10232340C0F3A66 /* libPods-reactnativestarter-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,20 +98,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F713BB70F5576982D1556BA /* libPods-starter-tvOSTests.a in Frameworks */,
+				2F713BB70F5576982D1556BA /* libPods-reactnativestarter-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* starterTests */ = {
+		00E356EF1AD99517003FC87E /* reactnativestarterTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* starterTests.m */,
+				00E356F21AD99517003FC87E /* reactnativestarterTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = starterTests;
+			path = reactnativestarterTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -122,7 +122,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* starter */ = {
+		13B07FAE1A68108700A75B9A /* reactnativestarter */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -133,7 +133,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = starter;
+			name = reactnativestarter;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -141,10 +141,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				7C59CAB58E11256C2417493D /* libPods-starter.a */,
-				B544E2650AF0D86D6E279CCE /* libPods-starter-tvOS.a */,
-				1BD66521E1882CCB42F665BA /* libPods-starter-tvOSTests.a */,
-				7687BA78F68B77C1F531F845 /* libPods-starterTests.a */,
+				7C59CAB58E11256C2417493D /* libPods-reactnativestarter.a */,
+				B544E2650AF0D86D6E279CCE /* libPods-reactnativestarter-tvOS.a */,
+				1BD66521E1882CCB42F665BA /* libPods-reactnativestarter-tvOSTests.a */,
+				7687BA78F68B77C1F531F845 /* libPods-reactnativestarterTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -152,14 +152,14 @@
 		4131A4B46C0E1B0A9F2B637B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F191344E7A2F0E23B4128114 /* Pods-starter.debug.xcconfig */,
-				EB9C3586DA8E0CBB7BA9BE29 /* Pods-starter.release.xcconfig */,
-				FBED7FE36F825F398501CF27 /* Pods-starter-tvOS.debug.xcconfig */,
-				4E8328312978013D9539EA20 /* Pods-starter-tvOS.release.xcconfig */,
-				F7D7443C32D2A5E105BD7111 /* Pods-starter-tvOSTests.debug.xcconfig */,
-				6BF5B6A13E1451F17BA204F3 /* Pods-starter-tvOSTests.release.xcconfig */,
-				0928A3F68861ADFDA0366427 /* Pods-starterTests.debug.xcconfig */,
-				FBBBAB297501D02621680E9C /* Pods-starterTests.release.xcconfig */,
+				F191344E7A2F0E23B4128114 /* Pods-reactnativestarter.debug.xcconfig */,
+				EB9C3586DA8E0CBB7BA9BE29 /* Pods-reactnativestarter.release.xcconfig */,
+				FBED7FE36F825F398501CF27 /* Pods-reactnativestarter-tvOS.debug.xcconfig */,
+				4E8328312978013D9539EA20 /* Pods-reactnativestarter-tvOS.release.xcconfig */,
+				F7D7443C32D2A5E105BD7111 /* Pods-reactnativestarter-tvOSTests.debug.xcconfig */,
+				6BF5B6A13E1451F17BA204F3 /* Pods-reactnativestarter-tvOSTests.release.xcconfig */,
+				0928A3F68861ADFDA0366427 /* Pods-reactnativestarterTests.debug.xcconfig */,
+				FBBBAB297501D02621680E9C /* Pods-reactnativestarterTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -174,9 +174,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* starter */,
+				13B07FAE1A68108700A75B9A /* reactnativestarter */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* starterTests */,
+				00E356EF1AD99517003FC87E /* reactnativestarterTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				4131A4B46C0E1B0A9F2B637B /* Pods */,
@@ -189,10 +189,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* starter.app */,
-				00E356EE1AD99517003FC87E /* starterTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* starter-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* starter-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* reactnativestarter.app */,
+				00E356EE1AD99517003FC87E /* reactnativestarterTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* reactnativestarter-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* reactnativestarter-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -200,9 +200,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* starterTests */ = {
+		00E356ED1AD99517003FC87E /* reactnativestarterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "starterTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "reactnativestarterTests" */;
 			buildPhases = (
 				624986A96251EEFC985BEAE7 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -214,14 +214,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = starterTests;
-			productName = starterTests;
-			productReference = 00E356EE1AD99517003FC87E /* starterTests.xctest */;
+			name = reactnativestarterTests;
+			productName = reactnativestarterTests;
+			productReference = 00E356EE1AD99517003FC87E /* reactnativestarterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* starter */ = {
+		13B07F861A680F5B00A75B9A /* reactnativestarter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "starter" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "reactnativestarter" */;
 			buildPhases = (
 				339BF5628837FB03F0447FA3 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -234,14 +234,14 @@
 			);
 			dependencies = (
 			);
-			name = starter;
-			productName = starter;
-			productReference = 13B07F961A680F5B00A75B9A /* starter.app */;
+			name = reactnativestarter;
+			productName = reactnativestarter;
+			productReference = 13B07F961A680F5B00A75B9A /* reactnativestarter.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* starter-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* reactnativestarter-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "starter-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "reactnativestarter-tvOS" */;
 			buildPhases = (
 				3C68330435DF35294EE8C1CD /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -254,14 +254,14 @@
 			);
 			dependencies = (
 			);
-			name = "starter-tvOS";
-			productName = "starter-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* starter-tvOS.app */;
+			name = "reactnativestarter-tvOS";
+			productName = "reactnativestarter-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* reactnativestarter-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* starter-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* reactnativestarter-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "starter-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "reactnativestarter-tvOSTests" */;
 			buildPhases = (
 				8301D31563C67E4A9555143B /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -273,9 +273,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "starter-tvOSTests";
-			productName = "starter-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* starter-tvOSTests.xctest */;
+			name = "reactnativestarter-tvOSTests";
+			productName = "reactnativestarter-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* reactnativestarter-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -302,7 +302,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "starter" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "reactnativestarter" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -316,10 +316,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* starter */,
-				00E356ED1AD99517003FC87E /* starterTests */,
-				2D02E47A1E0B4A5D006451C7 /* starter-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* starter-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* reactnativestarter */,
+				00E356ED1AD99517003FC87E /* reactnativestarterTests */,
+				2D02E47A1E0B4A5D006451C7 /* reactnativestarter-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* reactnativestarter-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -402,7 +402,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-starter-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-reactnativestarter-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -424,7 +424,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-starter-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-reactnativestarter-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -446,7 +446,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-starterTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-reactnativestarterTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -468,7 +468,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-starter-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-reactnativestarter-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -520,7 +520,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* starterTests.m in Sources */,
+				00E356F31AD99517003FC87E /* reactnativestarterTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,7 +546,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* starterTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* reactnativestarterTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,12 +555,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* starter */;
+			target = 13B07F861A680F5B00A75B9A /* reactnativestarter */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* starter-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* reactnativestarter-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -572,7 +572,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = starter;
+			path = reactnativestarter;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -580,14 +580,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0928A3F68861ADFDA0366427 /* Pods-starterTests.debug.xcconfig */;
+			baseConfigurationReference = 0928A3F68861ADFDA0366427 /* Pods-reactnativestarterTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = starterTests/Info.plist;
+				INFOPLIST_FILE = reactnativestarterTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -597,17 +597,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/starter.app/starter";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reactnativestarter.app/reactnativestarter";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FBBBAB297501D02621680E9C /* Pods-starterTests.release.xcconfig */;
+			baseConfigurationReference = FBBBAB297501D02621680E9C /* Pods-reactnativestarterTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = starterTests/Info.plist;
+				INFOPLIST_FILE = reactnativestarterTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -617,52 +617,52 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/starter.app/starter";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reactnativestarter.app/reactnativestarter";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F191344E7A2F0E23B4128114 /* Pods-starter.debug.xcconfig */;
+			baseConfigurationReference = F191344E7A2F0E23B4128114 /* Pods-reactnativestarter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				INFOPLIST_FILE = starter/Info.plist;
+				INFOPLIST_FILE = reactnativestarter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ronit.starter;
-				PRODUCT_NAME = starter;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ronit.reactnativestarter;
+				PRODUCT_NAME = reactnativestarter;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EB9C3586DA8E0CBB7BA9BE29 /* Pods-starter.release.xcconfig */;
+			baseConfigurationReference = EB9C3586DA8E0CBB7BA9BE29 /* Pods-reactnativestarter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = starter/Info.plist;
+				INFOPLIST_FILE = reactnativestarter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ronit.starter;
-				PRODUCT_NAME = starter;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ronit.reactnativestarter;
+				PRODUCT_NAME = reactnativestarter;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FBED7FE36F825F398501CF27 /* Pods-starter-tvOS.debug.xcconfig */;
+			baseConfigurationReference = FBED7FE36F825F398501CF27 /* Pods-reactnativestarter-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -673,14 +673,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "starter-tvOS/Info.plist";
+				INFOPLIST_FILE = "reactnativestarter-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.starter-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.reactnativestarter-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -690,7 +690,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E8328312978013D9539EA20 /* Pods-starter-tvOS.release.xcconfig */;
+			baseConfigurationReference = 4E8328312978013D9539EA20 /* Pods-reactnativestarter-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -701,14 +701,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "starter-tvOS/Info.plist";
+				INFOPLIST_FILE = "reactnativestarter-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.starter-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.reactnativestarter-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -718,7 +718,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7D7443C32D2A5E105BD7111 /* Pods-starter-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = F7D7443C32D2A5E105BD7111 /* Pods-reactnativestarter-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -728,24 +728,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "starter-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "reactnativestarter-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.starter-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.reactnativestarter-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/starter-tvOS.app/starter-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reactnativestarter-tvOS.app/reactnativestarter-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6BF5B6A13E1451F17BA204F3 /* Pods-starter-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 6BF5B6A13E1451F17BA204F3 /* Pods-reactnativestarter-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -755,17 +755,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "starter-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "reactnativestarter-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.starter-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.reactnativestarter-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/starter-tvOS.app/starter-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reactnativestarter-tvOS.app/reactnativestarter-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -872,7 +872,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "starterTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "reactnativestarterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -881,7 +881,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "starter" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "reactnativestarter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -890,7 +890,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "starter-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "reactnativestarter-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -899,7 +899,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "starter-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "reactnativestarter-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -908,7 +908,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "starter" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "reactnativestarter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

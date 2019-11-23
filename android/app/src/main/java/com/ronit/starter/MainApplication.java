@@ -1,4 +1,4 @@
-package com.starter;
+package com.ronit.starter;
 
 import android.app.Application;
 import android.content.Context;
